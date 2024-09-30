@@ -1,5 +1,4 @@
 import { Layout } from "../Layout";
-
 import { HeroLeft } from "./HeroLeft";
 import { HeroRight } from "./HeroRight";
 

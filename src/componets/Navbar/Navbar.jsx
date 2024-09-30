@@ -1,5 +1,5 @@
-import logo from "../../assets/logo_coffe.svg";
-import cartIcon from "../../assets/cart-icon.svg";
+import logo from "../../assets/icons/logo_coffe.svg";
+import cartIcon from "../../assets/icons/cart-icon.svg";
 import { Searchbar } from "./Searchbar";
 import { Links } from "./Links";
 import { Layout } from "../Layout";

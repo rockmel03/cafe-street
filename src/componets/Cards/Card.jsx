@@ -1,5 +1,5 @@
-import cartIcon from "../../assets/cart-icon.svg";
-import star from "../../assets/star.svg";
+import cartIcon from "../../assets/icons/cart-icon.svg";
+import star from "../../assets/icons/star.svg";
 
 export const Card = ({ data }) => (
   <article className="max-w-[355px] h-[385px] flex flex-col justify-between rounded-xl bg-white p-5 shadow-md ">

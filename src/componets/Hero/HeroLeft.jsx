@@ -1,4 +1,4 @@
-import cartIcon from "../../assets/cart-icon.svg";
+import cartIcon from "../../assets/icons/cart-icon.svg";
 
 export const HeroLeft = () => {
   return (
