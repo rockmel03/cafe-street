@@ -6,7 +6,7 @@ import { Layout } from "../Layout";
 
 export const Navbar = () => {
   return (
-    <nav>
+    <nav className="w-full fixed top-0 left-1/2 -translate-x-1/2 z-[99]">
       <Layout className="w-full flex items-center justify-between h-[10vh] ">
         <div>
           <img

@@ -4,9 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        light: "#F9D9AA",
-        black: "#2F2105",
+        light: "#7E7D7A",
+        glass: "#ffffff70",
+        secondary: "#2F2105",
         primary: "#FF902A",
+        accent: "#F9D9AA",
+        cream: "#F6EBDA",
       },
     },
   },
