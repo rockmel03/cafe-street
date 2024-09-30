@@ -1,4 +1,4 @@
-import { Hero } from "./componets/Index";
+import { Hero, Popular } from "./componets/Index";
 import { Navbar } from "./componets/Navbar/Navbar";
 
 export default function App() {
@@ -6,6 +6,7 @@ export default function App() {
     <main className="">
       <Navbar />
       <Hero />
+      <Popular />
     </main>
   );
 }

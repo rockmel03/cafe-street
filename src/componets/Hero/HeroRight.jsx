@@ -1,5 +1,5 @@
 import heroBg from "../../assets/Images/img-hero.png";
-import bgHeroBg from "../../assets/Images/bg_img_hero.png";
+import bgHeroBg from "../../assets/Images/coffee_seeds.png";
 
 export const HeroRight = () => {
   return (
