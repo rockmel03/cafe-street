@@ -1,6 +1,7 @@
 import {
   About,
   DeliveryService,
+  Footer,
   Hero,
   Menu,
   Popular,
@@ -18,6 +19,7 @@ export default function App() {
       <About />
       <Menu />
       <Testimonials />
+      <Footer />
     </main>
   );
 }
