@@ -5,13 +5,13 @@ import { popularData } from "../../Constants";
 
 export const Popular = () => {
   return (
-    <section className="w-full h-screen">
-      <div className="w-full h-1/2 bg-cream relative">
+    <section className="w-full laptop:h-screen">
+      <div className="w-full pb-5 laptop:h-1/2 bg-cream relative">
         <Layout>
           <img
             src={coffee}
             alt="coffe seeds"
-            className="-translate-x-44 -translate-y-32 z-[1] h-full absolute left-0"
+            className="-translate-x-44 -translate-y-32 z-[1] laptop:h-full absolute left-0"
           />
         </Layout>
         <div className="relative z-[2]">
@@ -22,8 +22,8 @@ export const Popular = () => {
                 Now
               </span>
             </h2>
-            <section className="relative w-full flex items-center gap-3 justify-around px-10">
-              <div className=" absolute z-[1] rounded-[4rem] -bottom-[20%] left-0 w-full h-[90%] bg-[#F9D9AA]" />
+            <section className="relative w-full flex items-center gap-3 justify-around laptop:px-10 flex-wrap tablet:flex-nowrap">
+              <div className=" absolute z-[1] rounded-[4rem] tablet:-bottom-[20%] left-0 w-full h-[90%] bg-[#F9D9AA]" />
               {popularData.map((item, idx) => (
                 <div key={idx} className="relative z-[2]">
                   <Card data={item} />

@@ -2,7 +2,7 @@ import cartIcon from "../../assets/icons/cart-icon.svg";
 import star from "../../assets/icons/star.svg";
 
 export const Card = ({ data, layout = 1 }) => (
-  <article className="max-w-[355px] h-[385px] flex flex-col justify-between rounded-xl bg-white p-5 shadow-md ">
+  <article className="max-w-[355px] laptop:h-[385px] flex flex-col justify-between rounded-xl bg-white p-5 shadow-md ">
     <div className="relative w-full h-[70%] bg-light rounded-xl overflow-hidden mb-2">
       <img
         src={data.image}
@@ -17,17 +17,17 @@ export const Card = ({ data, layout = 1 }) => (
       </div>
     </div>
     <div>
-      <div className="flex items-center justify-between text-[1.5em]">
+      <div className="flex items-center justify-between laptop:text-[1.5em]">
         <h3 className="font-semibold">{data.name}</h3>
         <strong>${data.price}</strong>
       </div>
       <div className="flex items-center justify-between">
         {layout === 1 && (
           <div className="flex gap-3">
-            <button className="text-primary border-2 border-primary px-4 py-1 text-[1em] rounded opacity-70 hover:opacity-100">
+            <button className="text-primary border-2 border-primary px-4 py-1 text-[.875em] laptop:text-[1em] rounded opacity-70 hover:opacity-100">
               Hot
             </button>
-            <button className="text-primary border-2 border-primary px-4 py-1 text-[1em] rounded opacity-70 hover:opacity-100">
+            <button className="text-primary border-2 border-primary px-4 py-1 text-[.875em] laptop:text-[1em] rounded opacity-70 hover:opacity-100">
               Cold
             </button>
           </div>
