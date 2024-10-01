@@ -1,7 +1,7 @@
 import cartIcon from "../../assets/icons/cart-icon.svg";
 import star from "../../assets/icons/star.svg";
 
-export const Card = ({ data }) => (
+export const Card = ({ data, layout = 1 }) => (
   <article className="max-w-[355px] h-[385px] flex flex-col justify-between rounded-xl bg-white p-5 shadow-md ">
     <div className="relative w-full h-[70%] bg-light rounded-xl overflow-hidden mb-2">
       <img
@@ -22,14 +22,17 @@ export const Card = ({ data }) => (
         <strong>${data.price}</strong>
       </div>
       <div className="flex items-center justify-between">
-        <div className="flex gap-3">
-          <button className="text-primary border-2 border-primary px-4 py-1 text-[1em] rounded opacity-70 hover:opacity-100">
-            Hot
-          </button>
-          <button className="text-primary border-2 border-primary px-4 py-1 text-[1em] rounded opacity-70 hover:opacity-100">
-            Cold
-          </button>
-        </div>
+        {layout === 1 && (
+          <div className="flex gap-3">
+            <button className="text-primary border-2 border-primary px-4 py-1 text-[1em] rounded opacity-70 hover:opacity-100">
+              Hot
+            </button>
+            <button className="text-primary border-2 border-primary px-4 py-1 text-[1em] rounded opacity-70 hover:opacity-100">
+              Cold
+            </button>
+          </div>
+        )}
+        {layout === 2 && <p className="font-semibold text-[.8em] text-light">{data.description}</p>}
         <div className="w-[43px] h-[43px] p-3 bg-primary rounded-full">
           <img src={cartIcon} alt="add to cart" />
         </div>

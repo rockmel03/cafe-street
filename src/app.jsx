@@ -1,4 +1,4 @@
-import { About, DeliveryService, Hero, Popular } from "./componets/Index";
+import { About, DeliveryService, Hero, Menu, Popular } from "./componets/Index";
 import { Navbar } from "./componets/Navbar/Navbar";
 
 export default function App() {
@@ -9,6 +9,7 @@ export default function App() {
       <Popular />
       <DeliveryService />
       <About />
+      <Menu />
     </main>
   );
 }
