@@ -1,31 +1,7 @@
 import { Layout } from "../Layout";
 import { Card } from "../Cards/Card";
 import coffee from "../../assets/Images/coffee_seeds.png";
-import vanilla from "../../assets/Images/vanilla.jpg";
-import espresso from "../../assets/Images/espresso.jpg";
-import hazelnut from "../../assets/Images/hazelnut.jpg";
-
-const popularData = [
-  {
-    name: "Vanilla Latte",
-    price: 18,
-    image: vanilla,
-    rating: 4.8,
-  },
-  {
-    name: "Espresso",
-    price: 22,
-    image: espresso,
-    rating: 4.6,
-  },
-  {
-    name: "Hazelnut Latte",
-    price: 24,
-    image: hazelnut,
-    rating: 4.5,
-  },
-];
-
+import { popularData } from "../../Constants";
 
 export const Popular = () => {
   return (

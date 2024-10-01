@@ -1,56 +1,6 @@
 import { Card } from "../Cards/Card";
 import { Layout } from "../Layout";
-import productImg1 from "../../assets/Images/product1.jpg";
-import productImg2 from "../../assets/Images/product2.jpg";
-import productImg3 from "../../assets/Images/product3.jpg";
-import productImg4 from "../../assets/Images/product4.jpg";
-import productImg5 from "../../assets/Images/product5.jpg";
-import productImg6 from "../../assets/Images/product6.jpg";
-
-const ProductData = [
-  {
-    image: productImg1,
-    name: "Sandwich",
-    description: "bread with meat and vegetables",
-    price: 12,
-    rating: 4.8,
-  },
-  {
-    image: productImg2,
-    name: "Hot Milk",
-    description: "Hot Milk with less sugar",
-    price: 10,
-    rating: 4.4,
-  },
-  {
-    image: productImg3,
-    name: "Coffe Ice Cream",
-    description: "Coffe with ice cream vanilla",
-    price: 12,
-    rating: 4.6,
-  },
-  {
-    image: productImg4,
-    name: "Cappucino",
-    description: "Hot Cappucino",
-    price: 12,
-    rating: 4.8,
-  },
-  {
-    image: productImg5,
-    name: "Moccacinno",
-    description: "Hot Moccacino ",
-    price: 10,
-    rating: 4.5,
-  },
-  {
-    image: productImg6,
-    name: "Waffle Ice Crem",
-    description: "Wafle with Ice cream",
-    price: 15,
-    rating: 4.7,
-  },
-];
+import { ProductData } from "../../Constants";
 
 export const Menu = () => {
   return (

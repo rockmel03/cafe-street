@@ -1,25 +1,5 @@
 import { Layout } from "../Layout";
-import dService1 from "../../assets/Images/service_D1.png";
-import dService2 from "../../assets/Images/service_D2.png";
-import dService3 from "../../assets/Images/service_D3.png";
-
-const deliveryServiceData = [
-  {
-    title: "choose your coffee",
-    description: "there are 20+ coffees for you",
-    image: dService1,
-  },
-  {
-    title: "we delivery it to you",
-    description: "Choose delivery service",
-    image: dService2,
-  },
-  {
-    title: "Enjoy your coffee",
-    description: "Choose delivery service",
-    image: dService3,
-  },
-];
+import { deliveryServiceData } from "../../Constants";
 
 export const DeliveryService = () => {
   return (

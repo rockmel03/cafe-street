@@ -1,26 +1,6 @@
 import bgImg from "../../assets/Images/about-bg-image.jpg";
 import { Layout } from "../Layout";
-import testImg1 from "../../assets/Images/testimonial1.jpg";
-import testImg2 from "../../assets/Images/testimonial2.jpg";
-import testImg3 from "../../assets/Images/testimonial3.jpg";
-
-const testimonialData = [
-  {
-    name: "Naura",
-    comment: "I really love the cappucino, the coffee was very smooth",
-    image: testImg1,
-  },
-  {
-    name: "John",
-    comment: "this coffee shop is very convenient ",
-    image: testImg2,
-  },
-  {
-    name: "Azura",
-    comment: "the coffee menu here is very much",
-    image: testImg3,
-  },
-];
+import { testimonialData } from "../../Constants";
 
 export const Testimonials = () => {
   return (
