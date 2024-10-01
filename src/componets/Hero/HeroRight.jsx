@@ -3,7 +3,7 @@ import bgHeroBg from "../../assets/Images/coffee_seeds.png";
 
 export const HeroRight = () => {
   return (
-    <div className="flex-1 flex items-center justify-center">
+    <div className="tablet:flex-1 flex items-center justify-center">
       <div className="relative max-w-[600px]">
         <img
           src={bgHeroBg}
@@ -13,7 +13,7 @@ export const HeroRight = () => {
         <img
           src={heroBg}
           alt=""
-          className="w-full h-full object-contain object-center relative z-[10]"
+          className="w-full h-full object-contain object-center relative z-[10] -translate-x-5"
         />
       </div>
     </div>

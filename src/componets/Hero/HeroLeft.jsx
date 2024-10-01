@@ -2,8 +2,8 @@ import cartIcon from "../../assets/icons/cart-icon.svg";
 
 export const HeroLeft = () => {
   return (
-    <div className="flex-1 flex flex-col gap-2">
-      <h1 className="text-[3em] font-medium">
+    <div className="tablet:flex-1 flex flex-col gap-2 items-center tablet:items-start text-center tablet:text-left">
+      <h1 className="text-[2em] laptop:text-[3em] font-medium">
         Enjoy your <span className="text-primary">coffee</span> <br />
         before your activity
       </h1>
