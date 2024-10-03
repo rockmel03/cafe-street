@@ -7,3 +7,4 @@ export * from "./About/About";
 export * from "./Menu/Menu";
 export * from "./Testimonials/Testimonials";
 export * from "./Footer/Footer";
+export * from "./Marquee/Marquee";
